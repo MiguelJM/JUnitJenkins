@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="2" time="0.058" errors="0" skipped="0" tests="3" name="com.mycompany.mavenproject1.AppTest">
+<testsuite failures="2" time="0.049" errors="0" skipped="0" tests="3" name="com.mycompany.mavenproject1.AppTest">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="C:\Users\Adirael\.m2\repository"/>
@@ -62,6 +62,7 @@
     <property name="env.TMP" value="C:\Users\Adirael\AppData\Local\Temp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="env.JAVA_HOME2" value="C:\Program Files\Java\jdk1.6.0"/>
     <property name="env.DOCKER_TOOLBOX_INSTALL_PATH" value="C:\Program Files\Docker Toolbox"/>
     <property name="useJavaUtilZip" value="true"/>
     <property name="user.home" value="C:\Users\Adirael"/>
@@ -120,8 +121,8 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
     <property name="env.PROCESSOR_LEVEL" value="6"/>
   </properties>
-  <testcase time="0.005" classname="com.mycompany.mavenproject1.AppTest" name="testApp"/>
-  <testcase time="0.008" classname="com.mycompany.mavenproject1.AppTest" name="testPrintHello">
+  <testcase time="0.004" classname="com.mycompany.mavenproject1.AppTest" name="testApp"/>
+  <testcase time="0.007" classname="com.mycompany.mavenproject1.AppTest" name="testPrintHello">
     <failure message="expected:&lt;...w...&gt; but was:&lt;...W...&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;...w...&gt; but was:&lt;...W...&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:81)
 	at junit.framework.Assert.assertEquals(Assert.java:87)
@@ -130,8 +131,8 @@
     <system-out>printHello
 </system-out>
   </testcase>
-  <testcase time="0.001" classname="com.mycompany.mavenproject1.AppTest" name="testAlgo">
-    <failure message="expected:&lt;Alg...&gt; but was:&lt;agl...&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;Alg...&gt; but was:&lt;agl...&gt;
+  <testcase time="0" classname="com.mycompany.mavenproject1.AppTest" name="testAlgo">
+    <failure message="expected:&lt;...lg...&gt; but was:&lt;...gl...&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;...lg...&gt; but was:&lt;...gl...&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:81)
 	at junit.framework.Assert.assertEquals(Assert.java:87)
 	at com.mycompany.mavenproject1.AppTest.testAlgo(AppTest.java:56)

@@ -14,11 +14,11 @@ public class App
 
     public static String printHello(  )
     {
-        return "Hello World!";
+        return "Hello world!";
     }
 
     public static String algo(  )
     {
-        return "aglo";
+        return "Algo";
     }
 }
