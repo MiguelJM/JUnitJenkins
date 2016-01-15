@@ -46,4 +46,13 @@ public class AppTest
         String result = App.printHello();
         assertEquals(expResult, result);
     }
+
+        /**
+     * Test of algo method, of class App.
+     */
+    public void testAlgo() {
+        String expResult = "Algo";
+        String result = App.algo();
+        assertEquals(expResult, result);
+    }
 }

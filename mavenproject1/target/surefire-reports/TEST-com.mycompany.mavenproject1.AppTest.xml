@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.012" errors="0" skipped="0" tests="2" name="com.mycompany.mavenproject1.AppTest">
+<testsuite failures="2" time="0.058" errors="0" skipped="0" tests="3" name="com.mycompany.mavenproject1.AppTest">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="C:\Users\Adirael\.m2\repository"/>
@@ -74,7 +74,7 @@
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser"/>
     <property name="env.M2_HOME" value="C:\Users\Adirael\Documents\Universidad\INSA\Maven\apache-maven-3.3.9"/>
     <property name="java.vendor.url" value="http://java.sun.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Adirael\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Adirael\AppData\Local\Android\android-sdk\build-tools;C:\Program Files (x86)\CloudFoundry;c:\Program Files\Git\bin;C:\Program Files\Perforce;C:\Program Files\OpenVPN\bin;C:\Users\Adirael\Documents\Universidad\INSA\Maven\apache-maven-3.3.9\bin;C:\Users\Adirael\Documents\Universidad\INSA\ANT\apache-ant-1.9.6\bin;C:\Windows\System32"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adirael\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Adirael\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Adirael\AppData\Local\Android\android-sdk\build-tools;C:\Program Files (x86)\CloudFoundry;c:\Program Files\Git\bin;C:\Program Files\Perforce;C:\Program Files\OpenVPN\bin;C:\Users\Adirael\Documents\Universidad\INSA\Maven\apache-maven-3.3.9\bin;C:\Users\Adirael\Documents\Universidad\INSA\ANT\apache-ant-1.9.6\bin;C:\Windows\System32"/>
     <property name="env.NUMBER_OF_PROCESSORS" value="8"/>
     <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -108,8 +108,7 @@
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Adirael\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Adirael\AppData\Local\Android\android-sdk\build-tools;C:\Program Files (x86)\CloudFoundry;c:\Program Files\Git\bin;C:\Program Files\Perforce;C:\Program Files\OpenVPN\bin;C:\Users\Adirael\Documents\Universidad\INSA\Maven\apache-maven-3.3.9\bin;C:\Users\Adirael\Documents\Universidad\INSA\ANT\apache-ant-1.9.6\bin;C:\Windows\System32"/>
-    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.NoOpLog"/>
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adirael\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Adirael\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Adirael\AppData\Local\Android\android-sdk\build-tools;C:\Program Files (x86)\CloudFoundry;c:\Program Files\Git\bin;C:\Program Files\Perforce;C:\Program Files\OpenVPN\bin;C:\Users\Adirael\Documents\Universidad\INSA\Maven\apache-maven-3.3.9\bin;C:\Users\Adirael\Documents\Universidad\INSA\ANT\apache-ant-1.9.6\bin;C:\Windows\System32"/>
     <property name="basedir" value="C:\Users\Adirael\Documents\GitHub\JenkinsGit (recover xml test file)\mavenproject1"/>
     <property name="maven.mode.standalone" value="true"/>
     <property name="env.USERNAME" value="Adirael"/>
@@ -121,6 +120,21 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
     <property name="env.PROCESSOR_LEVEL" value="6"/>
   </properties>
-  <testcase time="0.001" classname="com.mycompany.mavenproject1.AppTest" name="testApp"/>
-  <testcase time="0.001" classname="com.mycompany.mavenproject1.AppTest" name="testPrintHello"/>
+  <testcase time="0.005" classname="com.mycompany.mavenproject1.AppTest" name="testApp"/>
+  <testcase time="0.008" classname="com.mycompany.mavenproject1.AppTest" name="testPrintHello">
+    <failure message="expected:&lt;...w...&gt; but was:&lt;...W...&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;...w...&gt; but was:&lt;...W...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.mycompany.mavenproject1.AppTest.testPrintHello(AppTest.java:47)
+</failure>
+    <system-out>printHello
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="com.mycompany.mavenproject1.AppTest" name="testAlgo">
+    <failure message="expected:&lt;Alg...&gt; but was:&lt;agl...&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;Alg...&gt; but was:&lt;agl...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.mycompany.mavenproject1.AppTest.testAlgo(AppTest.java:56)
+</failure>
+  </testcase>
 </testsuite>
