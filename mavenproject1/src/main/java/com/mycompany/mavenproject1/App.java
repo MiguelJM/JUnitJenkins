@@ -13,6 +13,6 @@ public class App
 
     public static String printHello(  )
     {
-        return "Hello World3!!!!";
+        return "Hello World!";
     }
 }
